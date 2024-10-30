@@ -1,2 +1,2 @@
 # Knot-Contactmap-ML
-The ML model identifies the presence and types of knots through contact maps.
+This is the Convolutional Neural Network model developed to identify the types and locations of knots from contact maps.
