@@ -7,13 +7,13 @@ def load_data(ns1, ns2, ns3):
     
     # Load train, test, and validation data
     train_images = np.concatenate(
-        [np.load(f'./../PROJECT/CONTACT/RIGID/CONTACT_MAP_DATA/X8_reverse/{type}/train_image.npy') for type in type_list], axis=0
+        [np.load(f'./augmented_data/{type}/train_image.npy') for type in type_list], axis=0
     )
     test_images = np.concatenate(
-        [np.load(f'./../PROJECT/CONTACT/RIGID/CONTACT_MAP_DATA/X8_reverse/{type}/test_image.npy') for type in type_list], axis=0
+        [np.load(f'./augmented_data/{type}/test_image.npy') for type in type_list], axis=0
     )
     valid_images = np.concatenate(
-        [np.load(f'./../PROJECT/CONTACT/RIGID/CONTACT_MAP_DATA/X8_reverse/{type}/valid_image.npy') for type in type_list], axis=0
+        [np.load(f'./augmented_data/{type}/valid_image.npy') for type in type_list], axis=0
     )
     
     # Shuffle train data
