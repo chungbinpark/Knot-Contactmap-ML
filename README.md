@@ -20,14 +20,14 @@ $ pip install -r requirements.txt
 3. Train the Model
    To train the model, run ```main.py```. Enter the following command:
 ```bash
-$ pip python main.py
+$ python main.py
 ```
 
 4. Test the Model
    
    You can evaluate the trained model using the test data. Run ```test.py``` to check the model's performance:
 ```bash
-$ pip python test.py
+$ python test.py
 ```
 
 5. Check the Results
